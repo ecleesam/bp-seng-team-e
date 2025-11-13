@@ -1,65 +1,61 @@
 # bp-seng-team-e
-bp SENG programme team e
 
-Jumanji Adventure
+**bp SENG Programme Team E**  
 
-This project is a short story game made with HTML, CSS, and JavaScript.
+---
+
+# Jumanji Adventure
+
+**Jumanji Adventure** is a short story game made with **HTML**, **CSS**, and **JavaScript**.  
 The player makes choices that change how the story goes. Each choice affects the score and can lead to winning or losing the game.
 
-How It Works
-index.html
+---
 
-This is the main web page for the game.
+## How It Works
 
-It shows the title, story text, choice buttons, score, and restart button.
+### index.html
+- Main web page for the game.  
+- Displays:
+  - Game title  
+  - Story text  
+  - Choice buttons  
+  - Score counter  
+  - Restart button  
+- Includes a canvas for background images.  
+- Connects to `style.css` and `script.js`.
 
-It also has a canvas to display background images for each scene.
+### style.css
+- Adds jungle-style background and text colors.  
+- Styles the container box, buttons, and story area.  
+- Centers the game on the screen.  
+- Buttons are green and change color when hovered.
 
-The file connects to style.css and script.js.
+### script.js
+- Controls the game logic.  
+- Stores all story scenes, images, and choices.  
+- Updates the story, image, and score when a choice is clicked.  
+- Shows the **Restart** button after reaching the end.  
+- Uses the **Canvas API** to display each scene's background image.
 
-style.css
+### test.js
+- Checks if the story data works correctly.  
+- Tests if key scenes exist.  
+- Shows `Jumanji basic tests passed!` in the console if everything is fine.
 
-Adds the jungle-style background and text colors.
+---
 
-Styles the container box, buttons, and story area.
+## How to Play
 
-The page is centered and looks like an adventure setting.
+1. Download all the files.  
+2. Make sure the `img` folder contains all the pictures.  
+3. Open **index.html** in your browser.  
+4. Read the story and click your choices to continue.  
+5. Try to win and escape Jumanji.  
+6. Click **Restart** to play again.
 
-Buttons are green and change color when hovered over.
+---
 
-script.js
+## Goal
 
-Controls how the game runs.
-
-Stores all story scenes, images, and choices.
-
-Updates the story, image, and score each time a choice is clicked.
-
-When the player reaches the end, a “Restart” button appears to play again.
-
-Uses the Canvas API to show images for each part of the story.
-
-test.js
-
-A small script to check that the story data works correctly.
-
-It tests if key scenes exist and shows “Jumanji basic tests passed!” in the console if everything is fine.
-
-How to Play
-
-Download all the files.
-
-Make sure the img folder contains all the pictures.
-
-Open index.html in your browser.
-
-Read the story and click the choices.
-
-Try to win and escape Jumanji.
-
-Click “Restart” to play again.
-
-Goal
-
-Make the right choices to survive and finish the adventure.
-Different choices lead to different endings — try them all.
+- Make the right choices to survive and finish the adventure.  
+- Different choices lead to different endings — try them all.
